@@ -1,3 +1,8 @@
+#' @returns A Rdata file which includes the cleaned data
+#' @export
+#'
+#'
+
 # Setup library
 library(dplyr)
 
