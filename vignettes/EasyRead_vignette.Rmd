@@ -17,21 +17,20 @@ This package easyRead is designed to make data cleaning and preprocessing easier
 library(easyRead)
 
 # load the cleaned dataset
-data(Clean_data_R_package.RData, package = "easyRead")
-head(Clean_data_R_package.RData)
+data("clean_R_package_data", package = "easyRead")
 
 # Data normalization
-Normalized_data <- Data_normalization(Clean_data_R_package.RData)
+Normalized_data <- data_normalization(clean_R_package_data)
 
 # Data summarisation
-Data_summarised <- Data_summarisation(Clean_data_R_package.RData)
+Data_summarised <- data_summarise(clean_R_package_data)
 print(Data_summarised)
 
 # Impute missing values
-Imputed_missing_data <- Impute_missing_values(Clean_data_R_package.RData)
+Imputed_missing_data <- impute_missing_values(clean_R_package_data)
 
 # Outlier detection
-Outliers_detected <- Outlier_detection(Clean_data_R_package.RData)
+Outliers_detected <- outlier_detection(clean_R_package_data)
 
 ```
 
