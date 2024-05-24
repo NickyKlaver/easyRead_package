@@ -14,4 +14,4 @@ clean_R_package_data <- raw_R_package_data %>%
   as.numeric(raw_R_package_data)
 
 # Save the data to the data folder
-save(clean_R_package_data, file = "./Data/Clean_data_R_package.RData")
+save(clean_R_package_data, file = "data/Clean_data_R_package.RData")

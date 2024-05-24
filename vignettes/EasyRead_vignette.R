@@ -1,22 +1,7 @@
----
-title: "easyRead: A preprocessing and data cleaning package"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{easyRead: A preprocessing and data cleaning package}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-# Introduction
-
-This package easyRead is designed to make data cleaning and preprocessing easier, it includes functions for e.g. data normalization and outlier detection and more.
-
-# Example usage
-
-```{r}
+## -----------------------------------------------------------------------------
 library(easyRead)
 
-# load the cleaned dataset
+# load the normalized dataset
 data(Clean_data_R_package.RData, package = "easyRead")
 head(Clean_data_R_package.RData)
 
@@ -32,8 +17,5 @@ Imputed_missing_data <- Impute_missing_values(Clean_data_R_package.RData)
 
 # Outlier detection
 Outliers_detected <- Outlier_detection(Clean_data_R_package.RData)
-
-```
-
 
 
