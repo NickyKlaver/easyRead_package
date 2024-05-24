@@ -1,0 +1,13 @@
+Package: easyRead
+Title: A package of different functions that can clean R data
+Version: 0.0.0.9000
+Authors@R:
+    person("Nicky", "Klaver", , "nicky.klaver@student.hu.nl", role = c("aut", "cre"))
+Description: This package easyRead is designed to make data cleaning and preprocessing easier, it includes functions for e.g. data normalization and outlier detection and more.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
