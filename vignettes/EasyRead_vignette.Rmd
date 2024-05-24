@@ -14,7 +14,7 @@ This package easyRead is designed to make data cleaning and preprocessing easier
 # Example usage
 
 ```{r}
-library(easyRead)
+library(easyRead_package)
 
 # load the cleaned dataset
 data("clean_R_package_data", package = "easyRead")
